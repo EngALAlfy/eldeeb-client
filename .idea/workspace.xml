@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeb72130-f9fd-4c26-b479-9b98585bb241" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/pages/profile/profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1417">
+              <caret line="526" column="0" lean-forward="false" selection-start-line="526" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extracts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/extracts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+              <folding>
+                <element signature="e#10134#10313#0" expanded="false" />
+                <marker date="1597665664643" expanded="true" signature="2044:2151" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/libs/print/print.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/libs/print/print.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="underscore-min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/libs/underscore/underscore-min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="const.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/const.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!block;n#checkRole#0" expanded="false" />
+                <element signature="n#!!block;n#checkRoleAndReturn#0" expanded="false" />
+                <element signature="n#!!block;n#checkLogin#0" expanded="false" />
+                <element signature="n#!!block;n#clearCookies#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attendance-report.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/pages/reports/attendance-report.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8334">
+              <caret line="463" column="55" lean-forward="false" selection-start-line="463" selection-start-column="46" selection-end-line="463" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="progress.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/progress.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="78" selection-end-column="18" />
+              <folding>
+                <marker date="1596571226242" expanded="true" signature="1994:2101" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employees-list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/employees-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <marker date="1598437547005" expanded="true" signature="4934:5041" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>d</find>
+      <find>columns[h].visible</find>
+      <find>printIgnore</find>
+      <find>Printed</find>
+      <find>dir</find>
+      <find>ltr</find>
+      <find>attendance-card</find>
+      <find>small</find>
+      <find>;</find>
+      <find>report[i]</find>
+      <find>form-inline</find>
+      <find>salary</find>
+      <find>console.log</find>
+      <find>update-project</find>
+      <find>,</find>
+      <find>left</find>
+      <find>displ</find>
+      <find>none</find>
+      <find>hide</find>
+      <find>show</find>
+      <find>الديب للمقاولات</find>
+      <find>الديب للبناء والتشييد</find>
+      <find>d-none</find>
+      <find>value=&quot;' + employee.name + '&quot;</find>
+      <find>class</find>
+      <find>cal-cell</find>
+      <find>click</find>
+      <find>navigate</find>
+      <find>unbi</find>
+      <find>title</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>contractors</replace>
+      <replace>اضافه مشروع</replace>
+      <replace>مقاول</replace>
+      <replace>اضافه مورد</replace>
+      <replace>todo</replace>
+      <replace>موظف</replace>
+      <replace>اشعار</replace>
+      <replace>الديب</replace>
+      <replace>form-check-input todo</replace>
+      <replace>sweetalert2.all.js</replace>
+      <replace>&lt;/title&gt;&lt;script src=&quot;../dist/js/const.js&quot;&gt;&lt;/script&gt;</replace>
+      <replace>../../dist/js/const.js</replace>
+      <replace>url + &quot;</replace>
+      <replace>كل الاشعارات</replace>
+      <replace>#</replace>
+      <replace>&lt;script src=&quot;../assets/libs/js.cookie.js&quot;&gt;&lt;/script&gt;</replace>
+      <replace>&lt;script src=&quot;../dist/js/app-style-switcher.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;../assets/libs/js.cookie.js&quot;&gt;&lt;/script&gt;</replace>
+      <replace>&lt;script src=&quot;../../dist/js/app-style-switcher.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;../../assets/libs/js.cookie.js&quot;&gt;&lt;/script&gt;</replace>
+      <replace />
+      <replace>JSON.stringify(data.err)</replace>
+      <replace>notyf</replace>
+      <replace>h3</replace>
+      <replace>h4</replace>
+      <replace>,</replace>
+      <replace>row</replace>
+      <replace>value</replace>
+      <replace>attendance</replace>
+      <replace>;</replace>
+      <replace>الديب للبناء والتشييد</replace>
+      <replace>الديب للتشييد والبناء</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/ar/employees</dir>
+      <dir>$PROJECT_DIR$/ar/projects</dir>
+      <dir>$PROJECT_DIR$/dist/js/pages</dir>
+      <dir>$PROJECT_DIR$/ar</dir>
+      <dir>$PROJECT_DIR$/dist/js</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dist/js/pages/employees/roles.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/reports/reports.js" />
+        <option value="$PROJECT_DIR$/ar/profile/profile..html" />
+        <option value="$PROJECT_DIR$/ar/contractors.html" />
+        <option value="$PROJECT_DIR$/ar/notifications.html" />
+        <option value="$PROJECT_DIR$/ar/suppliers.html" />
+        <option value="$PROJECT_DIR$/ar/your-notifications.html" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-progress.html" />
+        <option value="$PROJECT_DIR$/ar/employees/employee-roles.html" />
+        <option value="$PROJECT_DIR$/ar/reports/reports.html" />
+        <option value="$PROJECT_DIR$/ar/employees/employees.html" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/view.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/projects.js" />
+        <option value="$PROJECT_DIR$/ar/projects/projects.html" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-photos.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/progress.js" />
+        <option value="$PROJECT_DIR$/assets/libs/fixed-column/bootstrap-table-sticky-header.css" />
+        <option value="$PROJECT_DIR$/assets/libs/fixed-column/bootstrap-table-sticky-header.min.js" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-employees.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/profile/view.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/employees/employees.js" />
+        <option value="$PROJECT_DIR$/assets/libs/pdfobject.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/other-files.js" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-other-files.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/extracts.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/drawings.js" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-extracts.html" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-drawings.html" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-employees-list.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/manager.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/photos.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/login/login.js" />
+        <option value="$PROJECT_DIR$/ar/employees/view-employee-project-attendance.html" />
+        <option value="$PROJECT_DIR$/assets/libs/calendar.js" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-workers-count.html" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-manager.html" />
+        <option value="$PROJECT_DIR$/dist/js/custom.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/employees-list.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/profile/calender.js" />
+        <option value="$PROJECT_DIR$/ar/profile/view-profile-project-attendance.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/employees/calender.js" />
+        <option value="$PROJECT_DIR$/ar/employees/view-employee.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/employees/view.js" />
+        <option value="$PROJECT_DIR$/ar/profile/profile.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/profile/profile.js" />
+        <option value="$PROJECT_DIR$/dist/js/pages/projects/problems.js" />
+        <option value="$PROJECT_DIR$/ar/projects/view-project-problems.html" />
+        <option value="$PROJECT_DIR$/ar/reports/attendance-report.html" />
+        <option value="$PROJECT_DIR$/dist/js/pages/reports/attendance-report.js" />
+        <option value="$PROJECT_DIR$/dist/js/const.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="88" />
+    <option name="width" value="1226" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jquery" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="print" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="underscore" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="profile" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="eldeeb-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eldeeb-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="projects" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/calender" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/js/pages/reports" />
+      <recent name="$PROJECT_DIR$/ar/reports" />
+      <recent name="$PROJECT_DIR$/dist/js/pages/projects" />
+      <recent name="$PROJECT_DIR$/ar/projects" />
+      <recent name="$PROJECT_DIR$/ar/employees" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/js/pages/profile" />
+      <recent name="$PROJECT_DIR$/ar/profile" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/libs" />
+      <recent name="$PROJECT_DIR$/ar/projects" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.login.html (1)">
+    <configuration name="attendance-report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/eldeeb-client/ar/reports/attendance-report.html" />
+    <configuration name="login.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/eldeeb-client/ar/login.html" />
+    <configuration name="login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/eldeeb-client/ar/login.html" />
+    <configuration name="print.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/eldeeb-client/ar/employees/print.html" />
+    <configuration name="projects.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/eldeeb-client/ar/projects/projects.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.projects.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.attendance-report.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.print.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.attendance-report.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.print.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.projects.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeb72130-f9fd-4c26-b479-9b98585bb241" name="Default" comment="" />
+      <created>1579593811083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579593811083</updated>
+      <workItem from="1579593825511" duration="2353000" />
+      <workItem from="1579596435939" duration="6657000" />
+      <workItem from="1579694626186" duration="2164000" />
+      <workItem from="1579950515179" duration="41842000" />
+      <workItem from="1580316689263" duration="8124000" />
+      <workItem from="1580375623403" duration="8647000" />
+      <workItem from="1580672778086" duration="286000" />
+      <workItem from="1581078534588" duration="4560000" />
+      <workItem from="1581090527077" duration="1912000" />
+      <workItem from="1593156881904" duration="73238000" />
+      <workItem from="1593531676836" duration="4225000" />
+      <workItem from="1593597673034" duration="13715000" />
+      <workItem from="1593692537443" duration="3924000" />
+      <workItem from="1593713622249" duration="17069000" />
+      <workItem from="1593890862737" duration="1183000" />
+      <workItem from="1593932533120" duration="3460000" />
+      <workItem from="1593944277629" duration="3755000" />
+      <workItem from="1593971848471" duration="623000" />
+      <workItem from="1594030230562" duration="8775000" />
+      <workItem from="1594113113464" duration="1002000" />
+      <workItem from="1594128520595" duration="9053000" />
+      <workItem from="1594321618366" duration="6010000" />
+      <workItem from="1594400192210" duration="1192000" />
+      <workItem from="1594573032828" duration="5861000" />
+      <workItem from="1594624887194" duration="11111000" />
+      <workItem from="1594668522980" duration="10776000" />
+      <workItem from="1594717309951" duration="1830000" />
+      <workItem from="1594838909718" duration="599000" />
+      <workItem from="1594908010656" duration="1656000" />
+      <workItem from="1595017922836" duration="492000" />
+      <workItem from="1595024968817" duration="1355000" />
+      <workItem from="1595078677042" duration="11222000" />
+      <workItem from="1595243251762" duration="2064000" />
+      <workItem from="1595315690058" duration="5877000" />
+      <workItem from="1595864002073" duration="11292000" />
+      <workItem from="1595920313528" duration="26424000" />
+      <workItem from="1595967013992" duration="16514000" />
+      <workItem from="1596107462562" duration="22906000" />
+      <workItem from="1596195406509" duration="5411000" />
+      <workItem from="1596223860100" duration="6739000" />
+      <workItem from="1596283853380" duration="3068000" />
+      <workItem from="1596303457620" duration="11285000" />
+      <workItem from="1596381770372" duration="2204000" />
+      <workItem from="1596406526058" duration="1914000" />
+      <workItem from="1596494945472" duration="3428000" />
+      <workItem from="1596560430300" duration="8354000" />
+      <workItem from="1596871676836" duration="16267000" />
+      <workItem from="1596914335763" duration="2755000" />
+      <workItem from="1597651340080" duration="11672000" />
+      <workItem from="1597686361608" duration="7650000" />
+      <workItem from="1597749016908" duration="1547000" />
+      <workItem from="1597761105648" duration="608000" />
+      <workItem from="1598257189631" duration="585000" />
+      <workItem from="1598258114737" duration="690000" />
+      <workItem from="1598267300989" duration="3758000" />
+      <workItem from="1598339850683" duration="12018000" />
+      <workItem from="1598425787061" duration="5064000" />
+      <workItem from="1598438901489" duration="912000" />
+      <workItem from="1598444234956" duration="3744000" />
+      <workItem from="1598511831864" duration="2865000" />
+      <workItem from="1598696777425" duration="905000" />
+      <workItem from="1598778686565" duration="1282000" />
+      <workItem from="1599150289465" duration="607000" />
+      <workItem from="1599604249978" duration="2947000" />
+      <workItem from="1599652988541" duration="3470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="475497000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="88" width="1312" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2843602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32656515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32656515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/libs/fixed-column/bootstrap-table-fixed-columns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27270">
+          <caret line="1515" column="80" lean-forward="false" selection-start-line="1515" selection-start-column="56" selection-end-line="1515" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/fixed-column/bootstrap-table-sticky-header.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20304">
+          <caret line="1128" column="0" lean-forward="false" selection-start-line="1128" selection-start-column="0" selection-end-line="1128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/employees/employees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="268" column="46" lean-forward="false" selection-start-line="268" selection-start-column="46" selection-end-line="268" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/employees/employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1070">
+          <caret line="250" column="48" lean-forward="false" selection-start-line="250" selection-start-column="48" selection-end-line="250" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/pdfobject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/drawings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-other-files.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="301" column="0" lean-forward="false" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/other-files.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="80" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-extracts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="302" column="54" lean-forward="false" selection-start-line="302" selection-start-column="54" selection-end-line="302" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-drawings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="301" column="54" lean-forward="false" selection-start-line="301" selection-start-column="54" selection-end-line="301" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/ajax-loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="93" column="30" lean-forward="false" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/logo-light-text.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logo-text.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logo-light-icon.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logo-icon.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/custom-select.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/app-style-switcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/sidebarmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16020">
+          <caret line="890" column="40" lean-forward="false" selection-start-line="890" selection-start-column="35" selection-end-line="890" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-employees-list.html" />
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-workers-count.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4536">
+          <caret line="252" column="65" lean-forward="false" selection-start-line="252" selection-start-column="65" selection-end-line="252" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4590">
+          <caret line="255" column="65" lean-forward="false" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/employees/view-employee-project-attendance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5544">
+          <caret line="308" column="47" lean-forward="false" selection-start-line="308" selection-start-column="47" selection-end-line="308" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/employees/calender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/employees/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="160" column="66" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/profile/view-profile-project-attendance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3330">
+          <caret line="185" column="57" lean-forward="false" selection-start-line="185" selection-start-column="57" selection-end-line="185" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/employees/employee-roles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6768">
+          <caret line="376" column="88" lean-forward="false" selection-start-line="376" selection-start-column="76" selection-end-line="376" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/employees/view-employee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6012">
+          <caret line="359" column="26" lean-forward="false" selection-start-line="334" selection-start-column="19" selection-end-line="359" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/profile/calender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="94" column="3" lean-forward="false" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="329" column="26" lean-forward="false" selection-start-line="329" selection-start-column="26" selection-end-line="329" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-progress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="278" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="299" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5292">
+          <caret line="294" column="46" lean-forward="false" selection-start-line="294" selection-start-column="46" selection-end-line="294" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/photos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="78" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/problems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-problems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="220" column="45" lean-forward="false" selection-start-line="220" selection-start-column="45" selection-end-line="220" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/reports/attendance-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5256">
+          <caret line="292" column="91" lean-forward="false" selection-start-line="292" selection-start-column="78" selection-end-line="292" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ar/projects/view-project-employees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5994">
+          <caret line="333" column="51" lean-forward="false" selection-start-line="333" selection-start-column="51" selection-end-line="333" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/employees-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <marker date="1598437547005" expanded="true" signature="4934:5041" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/progress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="78" selection-end-column="18" />
+          <folding>
+            <marker date="1596571226242" expanded="true" signature="1994:2101" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/reports/attendance-report.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8334">
+          <caret line="463" column="55" lean-forward="false" selection-start-line="463" selection-start-column="46" selection-end-line="463" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/print/print.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/print/print.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/underscore/underscore-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!block;n#checkRole#0" expanded="false" />
+            <element signature="n#!!block;n#checkRoleAndReturn#0" expanded="false" />
+            <element signature="n#!!block;n#checkLogin#0" expanded="false" />
+            <element signature="n#!!block;n#clearCookies#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/profile/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1417">
+          <caret line="526" column="0" lean-forward="false" selection-start-line="526" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/pages/projects/extracts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+          <folding>
+            <element signature="e#10134#10313#0" expanded="false" />
+            <marker date="1597665664643" expanded="true" signature="2044:2151" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

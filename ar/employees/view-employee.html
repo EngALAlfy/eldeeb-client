@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
+    <title>الديب للتشييد والبناء - الموظف</title>
+    <script src="../../dist/js/const.js"></script>
+    <!-- Custom CSS -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../dist/css/calendar.css">
+    <link href="../../dist/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <link href="../../assets/libs/fixed-column/bootstrap-table.min.css" rel="stylesheet">
+    <link href="../../assets/libs/fixed-column/bootstrap-table-fixed-columns.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<div class="preloader">
+    <div class="lds-ripple">
+        <div class="lds-pos"></div>
+        <div class="lds-pos"></div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+     data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <header class="topbar" data-navbarbg="skin5">
+        <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+            <div class="navbar-header" data-logobg="skin5">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <a class="navbar-brand" href="../projects/projects.html">
+                    <h3 class="logo-text page-title text-white">الديب للتشييد والبناء</h3>
+                </a>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <!-- This is for the sidebar toggle which is visible on mobile only -->
+                <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                        class="ti-menu ti-close"></i></a>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Logo -->
+            <!-- ============================================================== -->
+            <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                <!-- ============================================================== -->
+                <!-- toggle and nav items -->
+                <!-- ============================================================== -->
+                <ul class="navbar-nav float-left mr-auto">
+                    <!-- ============================================================== -->
+                    <!-- Search -->
+                    <!-- ============================================================== -->
+                    <li class="nav-item search-box"><a class="nav-link waves-effect waves-dark"
+                                                       href="javascript:void(0)"><i class="ti-search"></i></a>
+                        <form class="app-search position-absolute">
+                            <input type="text" class="form-control" placeholder="بحث في الموظفين"> <a
+                                class="srh-btn"><i class="ti-close"></i></a>
+                        </form>
+                    </li>
+                </ul>
+                <!-- ============================================================== -->
+                <!-- Right side toggle and nav items -->
+                <!-- ============================================================== -->
+
+                <ul class="navbar-nav mr-auto">
+                    <!-- ============================================================== -->
+                    <!-- Search -->
+                    <!-- ============================================================== -->
+                    <li class="nav-item">
+                        <a id="user-name" class="nav-link" href="../profile/profile.html"></a>
+                    </li>
+                </ul>
+
+                <!-- ============================================================== -->
+                <ul class="navbar-nav float-right">
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href=""
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src=""
+                                                                                                  onerror="this.src=url+'images/employee.png'"
+                                                                                                  id="current-user-image"
+                                                                                                  alt="user"
+                                                                                                  class="rounded-circle"
+                                                                                                  width="31"></a>
+                        <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                            <a class="dropdown-item" href="../profile/profile.html"><i class="ti-user m-r-5 m-l-5"></i>
+                                حسابي</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="javascript:void(0)" id="logout"><i
+                                    class="fa fa-power-off m-r-5 m-l-5"></i> تسجيل خروج </a>
+                        </div>
+                    </li>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <aside class="left-sidebar" data-sidebarbg="skin6">
+        <!-- Sidebar scroll-->
+        <div class="scroll-sidebar">
+            <!-- Sidebar navigation-->
+            <nav class="sidebar-nav">
+                <ul id="sidebarnav">
+                    <li id="projects-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../projects/projects.html" aria-expanded="false"><i
+                            class="mdi mdi-view-dashboard"></i><span class="hide-menu">المشاريع</span></a></li>
+                    <li id="all-notifications-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../notifications.html" aria-expanded="false"><i
+                            class="mdi mdi-bell-ring-outline"></i><span class="hide-menu">كل الاشعارات</span></a></li>
+                    <li id="your-notifications-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../your-notifications.html" aria-expanded="false"><i
+                            class="mdi mdi-bell-ring"></i><span class="hide-menu">اشعاراتك</span></a></li>
+                    <li id="employees-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../employees/employees.html" aria-expanded="false"><i
+                            class="mdi mdi-account-multiple"></i><span class="hide-menu">الموظفين</span></a></li>
+                    <li id="contractors-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../contractors.html" aria-expanded="false"><i
+                            class="mdi mdi-worker"></i><span class="hide-menu">المقاولين</span></a></li>
+                    <li id="suppliers-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../suppliers.html" aria-expanded="false"><i
+                            class="mdi mdi-truck-trailer"></i><span class="hide-menu">الموردين</span></a></li>
+                    <li id="reports-nav" class="sidebar-item"><a
+                            class="sidebar-link waves-effect waves-dark sidebar-link"
+                            href="../reports/reports.html" aria-expanded="false"><i
+                            class="fa fa-file-pdf"></i><span class="hide-menu">التقارير</span></a></li>
+                    <li id="download-app-nav" class="text-center p-40 upgrade-btn">
+                        <a href="#"
+                           class="btn btn-block btn-danger text-white" target="_blank">تحميل التطبيق</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- End Sidebar navigation -->
+        </div>
+        <!-- End Sidebar scroll-->
+    </aside>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <div class="page-breadcrumb">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h4 class="page-title">الموظفين</h4>
+                    <div class="d-flex align-items-center">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">الديب</li>
+                                <li class="breadcrumb-item" aria-current="page">الموظفين</li>
+                                <li class="breadcrumb-item active" aria-current="page">عرض الموظف</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+            <!-- ============================================================== -->
+            <!-- Start Page Content -->
+            <!-- ============================================================== -->
+            <!-- Row -->
+            <div class="row">
+                <!-- Column -->
+                <div class="col-lg-4 col-xlg-3 col-md-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <center class="m-t-30">
+                                <img id="employee-photo" onerror="this.src=url+'images/employee.png'"
+                                     class="border border-secondary rounded-circle"
+                                     width="150" src=""/>
+
+                                <a href="javascript:void(0)" id="edit-photo"
+                                   class="d-none text-info  align-top fa fa-edit"></a>
+
+                                <h3 id="name" class="card-title m-t-10"></h3>
+                                <h5 id="job" class="card-subtitle"></h5>
+                            </center>
+                        </div>
+                        <div>
+                            <hr>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="text-muted">البريد</h4>
+                            <h6 id="email"></h6>
+                            <h4 class="text-muted">اسم المستخدم</h4>
+                            <h6 id="username"></h6>
+                            <div id="password-row" class="d-none row">
+                                <h4 class="text-muted col-11">كلمة السر</h4>
+                                <a href="javascript:void(0)" id="show-password" class="text-info col-1 fa fa-eye"></a>
+                                <h6 class="col-12 star" id="password"></h6>
+                                <input type="hidden" id="password-hidden">
+                            </div>
+                            <h4 class="text-muted p-t-30 db">الهاتف</h4>
+                            <div id="phones"></div>
+                            <h4 class="text-muted p-t-30 db">العنوان</h4>
+                            <h6 id="address"></h6>
+                            <h4 class="text-muted p-t-30 db">المؤهل</h4>
+                            <h6 id="qualification"></h6>
+                            <h4 class="text-muted p-t-30 db">تاريخ المؤهل</h4>
+                            <h6 id="qualification-date"></h6>
+                            <h4 class="text-muted p-t-30 db">تاريخ التوظيف</h4>
+                            <h6 id="job-date"></h6>
+                            <h4 class="text-muted p-t-30 db">تاريخ الميلاد</h4>
+                            <h6 id="birthdate"></h6>
+
+                            <div id="code-row" class=" p-t-30 db row">
+                                <h4 class="text-muted col-11">الكود</h4>
+                                <a href="javascript:void(0)" id="edit-code"
+                                   class="d-none text-info col-1 fa fa-edit"></a>
+
+                                <h6 class="col-12" id="code"></h6>
+                            </div>
+
+                            <div id="salary-row" class="d-none p-t-30 db row">
+                                <h4 class="text-muted col-11">الراتب</h4>
+                                <a href="javascript:void(0)" id="edit-salary" class="text-info col-1 fa fa-edit"></a>
+
+                                <h6 class="col-12" id="salary"></h6>
+
+                                <h4 class="text-muted col-11">التامينات</h4>
+                                <a href="javascript:void(0)" id="edit-insurance" class="text-info col-1 fa fa-edit"></a>
+
+                                <h6 class="col-12" id="insurance"></h6>
+                            </div>
+
+
+                            <div id="holidays-row" class="d-none p-t-30 db row">
+                                <h4 class="text-muted col-11">الاجازات المدفوعه</h4>
+                                <a href="javascript:void(0)" id="edit-paid-holidays"
+                                   class="text-info col-1 fa fa-edit"></a>
+
+                                <h6 id="paid-holidays" class="col-12"></h6>
+                            </div>
+
+                            <div id="project-row" class="p-t-30 db row">
+                                <h4 class="text-muted col-11">المشروع الحالي</h4>
+                                <a href="javascript:void(0)" id="edit-current-project"
+                                   class="text-info col-1 fa fa-edit"></a>
+
+                                <div id="current-project" class="col-12"></div>
+                            </div>
+                            <hr class="mt-5 mb-3">
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-xl-3">
+                                    <a id="roles-btn" class="d-none col-12  btn btn-success">الصلاحيات</a>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-xl-3">
+                                    <a id="edit-btn" href="javascript:void(0)"
+                                       class="d-none col-12  btn btn-warning">تعديل</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column -->
+                <!-- Column -->
+                <div class="col-lg-8 col-xlg-9 col-md-7">
+
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="page-title">المشاريع المشترك بها</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="projects-in" class="table v-middle">
+                                    <thead>
+                                    <tr class="bg-light">
+                                        <th class="border-top-0">الاسم</th>
+                                        <th class="border-top-0">المالك</th>
+                                        <th class="d-none project-attendance border-top-0">الحضور</th>
+                                        <th class="border-top-0">عرض</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="d-none salary-card card">
+                        <div class="card-header">
+                            <h5 class="page-title">المتوسط</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="salary-average"
+                                       data-minimum-count-columns="2"
+                                       data-show-fullscreen="true"
+                                       data-show-columns-toggle-all="true" data-show-print="true" data-pagination="true"
+                                       data-show-columns="true" data-show-export="true" data-unique-id="month"
+                                       data-toggle="salary-average" data-fixed-columns="true"
+                                       class="table table-striped v-middle table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th data-print-ignore="true" data-force-hide="true" data-field="id">id</th>
+                                        <th data-field="salary">الاساسي</th>
+                                        <th data-field="rewards">المكافآت</th>
+                                        <th data-field="average1">متوسط فعلي</th>
+                                        <th data-field="average2">متوسط مثالي</th>
+                                    </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-none attendance-card  card">
+                        <div class="card-header">
+                            <h4 class="page-title">تقرير غياب الموظف</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive ">
+                                <div class="form-inline" id="attendance-table-toolbar">
+                                    <span>
+     <select class="custom-select" id="attendance-info-month">
+        <option value="1">يناير</option>
+        <option value="2">فبراير</option>
+        <option value="3">مارس</option>
+        <option value="4">ابريل</option>
+        <option value="5">مايو</option>
+        <option value="6">يونيو</option>
+        <option value="7">يوليو</option>
+        <option value="8">اغسطس</option>
+        <option value="9">سبتمبر</option>
+        <option value="10">اكتوبر</option>
+        <option value="11">نوفمبر</option>
+        <option value="12">ديسمبر</option>
+     </select>
+</span>
+                                    <span>
+     <select id="attendance-info-year" class="custom-select">
+          <option value="2040">2040</option>
+          <option value="2039">2039</option>
+          <option value="2038">2038</option>
+          <option value="2037">2037</option>
+          <option value="2036">2036</option>
+          <option value="2035">2035</option>
+          <option value="2034">2034</option>
+          <option value="2033">2033</option>
+          <option value="2032">2032</option>
+          <option value="2031">2031</option>
+          <option value="2030">2030</option>
+          <option value="2029">2029</option>
+          <option value="2028">2028</option>
+          <option value="2027">2027</option>
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+     </select>
+</span>
+                                </div>
+                                <table data-toolbar="#attendance-table-toolbar" id="attendance-table"
+                                       data-minimum-count-columns="2"
+                                       data-show-fullscreen="true"
+                                       data-show-columns-toggle-all="true" data-show-print="true" data-pagination="true"
+                                       data-show-columns="true" data-fixed-columns="true" data-fixed-right-number="3"
+                                       data-show-export="true"
+                                       data-unique-id="id" data-toggle="attendance-table"
+                                       class="table table-striped v-middle table-bordered">
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-none salary-card  card">
+                        <div class="card-header">
+                            <h4 class="page-title">تقرير راتب الموظف</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive ">
+                                <div class="form-inline" id="salary-table-toolbar">
+                                    <span>
+     <select class="custom-select" id="salary-info-month">
+        <option value="1">يناير</option>
+        <option value="2">فبراير</option>
+        <option value="3">مارس</option>
+        <option value="4">ابريل</option>
+        <option value="5">مايو</option>
+        <option value="6">يونيو</option>
+        <option value="7">يوليو</option>
+        <option value="8">اغسطس</option>
+        <option value="9">سبتمبر</option>
+        <option value="10">اكتوبر</option>
+        <option value="11">نوفمبر</option>
+        <option value="12">ديسمبر</option>
+     </select>
+</span>
+                                    <span>
+     <select id="salary-info-year" class="custom-select">
+          <option value="2040">2040</option>
+          <option value="2039">2039</option>
+          <option value="2038">2038</option>
+          <option value="2037">2037</option>
+          <option value="2036">2036</option>
+          <option value="2035">2035</option>
+          <option value="2034">2034</option>
+          <option value="2033">2033</option>
+          <option value="2032">2032</option>
+          <option value="2031">2031</option>
+          <option value="2030">2030</option>
+          <option value="2029">2029</option>
+          <option value="2028">2028</option>
+          <option value="2027">2027</option>
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+     </select>
+</span>
+                                </div>
+                                <table id="salary-table" data-toolbar="#salary-table-toolbar"
+                                       data-minimum-count-columns="2"
+                                       data-show-fullscreen="true"
+                                       data-show-columns-toggle-all="true" data-show-print="true" data-pagination="true"
+                                       data-show-columns="true" data-show-export="true" data-unique-id="month"
+                                       data-toggle="salary-table" data-fixed-columns="true"
+                                       class="table table-striped v-middle table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th data-print-ignore="true" data-force-hide="true" data-field="id">id</th>
+                                        <th data-field="code">#</th>
+                                        <th data-field="name">الاسم</th>
+                                        <th data-field="salary">الراتب</th>
+                                        <th data-field="month">الشهر</th>
+                                        <th data-field="paid_holidays">اجازات مدفوعه</th>
+                                        <th data-field="formal_holidays">الاجازات الرسمية</th>
+                                        <th data-field="work_days">ايام العمل</th>
+                                        <th data-field="attend_days">ايام الحضور</th>
+                                        <th data-field="absence_days">ايام الغياب</th>
+                                        <th data-field="borrows">السلف</th>
+                                        <th data-field="discounts">الخصومات</th>
+                                        <th data-field="additions">الاضافات</th>
+                                        <th data-field="rewards">المكافأت</th>
+                                        <th data-field="final_salary">الراتب المستحق</th>
+                                    </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div class="col-12">
+                                <p class="text-muted">ايام العمل: ايام الشهر بعد حذف اجازات الجمعه واجازات الرسمية وحذف
+                                    ايام الغياب في حدود الاجازات المدفوعه</p>
+                                <p class="text-muted">راتب الحضور: هو راتب ايام الحضور بالنسبه لايام العمل قبل خصم السلف
+                                    والخصومات وقبل اضافه المكافآت والاضافات</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Column -->
+            </div>
+            <!-- Row -->
+            <!-- ============================================================== -->
+            <!-- End PAge Content -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Right sidebar -->
+            <!-- ============================================================== -->
+            <!-- .right-sidebar -->
+            <!-- ============================================================== -->
+            <!-- End Right sidebar -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer text-center">
+            All Rights Reserved by El Deeb. Designed and Developed by <a href="https://arconnecthost.com">ALAlfy @
+            ARConnectHost</a>.
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap tether Core JavaScript -->
+<script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+<script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../dist/js/app-style-switcher.js"></script>
+<!--Wave Effects -->
+
+<!--Menu sidebar -->
+<script src="../../dist/js/sidebarmenu.js"></script>
+
+<!--bootbox alert-->
+<script src="../../assets/libs/sweetalert2.all.js"></script>
+<script src="../../assets/libs/fixed-column/tableExport.min.js"></script>
+
+<script src="../../assets/libs/fixed-column/pdfmake/pdfmake.min.js"></script>
+<script src="../../assets/libs/fixed-column/pdfmake/mirza_fonts.js"></script>
+
+<script src="../../assets/libs/fixed-column/bootstrap-table.min.js"></script>
+<script src="../../assets/libs/fixed-column/bootstrap-table-export.min.js"></script>
+
+
+<script src="../../assets/libs/fixed-column/bootstrap-table-fixed-columns.js"></script>
+
+<script src="../../assets/libs/fixed-column/bootstrap-table-print.min.js"></script>
+
+<!--Custom JavaScript -->
+<script src="../../dist/js/custom.js"></script>
+<!-- Page javascript file here -->
+<script src="../../dist/js/pages/employees/view.js"></script>
+</body>
+
+</html>
